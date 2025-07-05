@@ -1,0 +1,53 @@
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////|||||||||||||||||||||||||||||||||||||||||||||||||||||||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\------------------------_________________-
+attention: NOT COMPLETE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+this is what will popup
+## frame 1 : main-menu
+---------------------------------------------------------------------
+disc copy menu
+1) start disc copying
+2) exit menu
+3) reset computer (***ADMIN-NEEDED****)
+4) turn on admin
+5) open admin terminal (DISABLED-BY-SYSTEM)
+selected→ ##|USRINPUT]
+---------------------------------------------------------------------
+## usr input is where the users responce goes
+## frame 2 : start-disc-copying
+---------------------------------------------------------------------
+disc copy menu step 1/
+-#-#-drives-#-#-
+1)  ## drive1
+2)  ## drive2
+3)  ## drive3
+4)  ## drive4
+selected→ ##|USRINPUT]
+--------------------------------------------------------------------
+## more coming soon
