@@ -6,4 +6,6 @@ var.create name:interger/text .startvalue                 ---- creates a var\
 var.edit varname "+,-,or change" [newvalue/changedvalue]   ---- edits a var
 var.delete varname newsection                               ---- newsection means eather "backups,trashcan"
 disc.copy                                                    ---- goes to the disc.copy menu https://github.com/Greenisus1/systemscript/blob/main/disc-copymenu.txt
+system.shutdown                                               ---- y'now
+system.pin setup.pin                                           ---- sets up the pin for the first time
 ## more commands soon
