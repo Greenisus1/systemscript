@@ -1,0 +1,9 @@
+here are some basic commands
+
+##                                                      ----   # creates a note that is not run you can put code here that you want for later eq: // in javascript
+--overide/line(startnum-endnum)--overide(PIN)            ---- overides system properties for startnum to endnum -  inbetween use var.varname for vars in the slots
+var.create name:interger/text .startvalue                 ---- creates a var\
+var.edit varname "+,-,or change" [newvalue/changedvalue]   ---- edits a var
+var.delete varname newsection                               ---- newsection means eather "backups,trashcan"
+disc.copy                                                    ---- goes to the disc.copy menu https://github.com/Greenisus1/systemscript/blob/main/disc-copymenu.txt
+## more commands soon
