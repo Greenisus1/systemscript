@@ -8,4 +8,22 @@ var.delete varname newsection                               ---- newsection mean
 disc.copy                                                    ---- goes to the disc.copy menu https://github.com/Greenisus1/systemscript/blob/main/disc-copymenu.txt
 system.shutdown                                               ---- y'now
 system.pin setup.pin                                           ---- sets up the pin for the first time
+var.lock varname                                                   ---- locks var from edits unless override is used
+var.unlock varname                                                 ---- unlocks var manually
+system.bootmode "safe/core/custom"                                 ---- sets boot mode type for next system launch
+script.chain "command1;command2;command3"                          ---- runs multiple commands in sequence
+system.debug mode:true level:high                                  ---- enables debug logging with chosen verbosity
+input.map bind:"F1" action:"openmenu.main"                         ---- maps input to systemscript action
+module.load "name.module" source:local/github                      ---- loads module from specified source
+module.unload "name.module"                                        ---- removes active module from memory
+var.scan active:true type:text/integer                             ---- scans current vars and returns matching type
+system.time set:"14:00" format:24hr                                ---- sets system time manually
+disc.erase target:"tempfiles/cache" confirm:"true"                 ---- erases specified system directories
+system.freeze process:"script.run"                                 ---- pauses live script execution until resume
+script.resume process:"script.run"                                 ---- resumes previously frozen script
+user.create username:admin level:root authpin:1234                 ---- creates system user with privilege level
+user.delete username:guest trashbin:true                           ---- deletes user and moves to system trashbin
+update.scan source:"local/disc/github"                             ---- checks for updates in systemscript modules
+update.apply package:"displaydriver_v3.2"                          ---- applies selected update file
+
 ## more commands soon
